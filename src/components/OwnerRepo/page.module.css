@@ -1,0 +1,74 @@
+.main {
+    width: 100%;
+}
+
+.userMainConta {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main button {
+    border-radius: 5px;
+    font-style: italic;
+    padding: 3px;
+    background-color: #89ba4fc9;
+    color: rgb(0, 0, 0);
+    border: 1px solid gray;
+
+    transition: all 0.4s;
+}
+
+.main button:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+
+}
+
+.picture {
+    border-radius: 50%;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.userContainer {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border: 1px solid grey;
+    background: #89ba4fc9;
+    border-radius: 5px;
+}
+
+.details {
+    width: 90%;
+    border: 1px dotted grey;
+    border-radius: 5px;
+    padding: 5px 5px 15px 5px;
+}
+.list {
+    list-style: none;
+}
+.list li {
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    flex-direction: column;
+    margin-top: 7px;
+
+}
+
+.list p{
+    text-indent: 30px;
+}
+
+.list a {
+    font-size: small;
+    text-decoration: underline;
+}
