@@ -26,7 +26,7 @@ async function getData() {
 
   const token = process.env.GITHUB_TOKEN;
 
-  const response = await fetch("https://api.github.com/users/lubamathias/repos", {next: {revalidate: 86400}})
+  const response = await fetch("https://api.github.com/users/lubamathias/repos", {next: {revalidate: 2}})
 
 
   const data = await response.json();  
